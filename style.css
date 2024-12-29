@@ -1,0 +1,167 @@
+* {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'gta-sa';
+    src: url("font/diploma.ttf");
+}
+
+@font-face {
+    font-family: 'terminator';
+    src: url("font/TERMINAT.TTF");
+}
+
+/* START OF INDEX */
+nav {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 25px;
+    border: #050505 10px solid;
+}
+
+#logo {
+    height: 100px;
+    padding-right: 150px;
+}
+
+nav a {
+    padding-left: 50px;
+}
+
+a p {
+    font-size: xx-large;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.nav-img {
+    height: 50px;
+}
+
+#home-george {
+    position: absolute;
+    top: 21%;
+    left: 71.5%;
+    height: 500px;
+}
+
+h1 {
+    position: absolute;
+    top: 27%;
+    left: 5%;
+    font-size: 200px;
+    font-family: "gta-sa";
+}
+
+h2 {
+    position: absolute;
+    top: 75%;
+    left: 74%;
+    font-size: xx-large;
+}
+
+h3 {
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    font-size: xx-large;
+}
+
+footer {
+    text-align: center;
+    border: #050505 10px solid;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+footer p {
+    margin: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: larger;
+}
+/* END OF INDEX */
+
+/* START OF LOGIN */
+.e404 {
+    text-align: center;
+    padding-top: 200px;
+    font-size: xx-large;
+}
+/* END OF LOGIN */
+
+/* START OF FLOYD1 */
+#cia-floyd {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    border: darkgray inset 10px;
+}
+
+#cia-floyd:hover {
+    cursor: pointer;
+    border: darkgray outset 10px;
+}
+/* END OF FLOYD1 */
+
+/* START OF FLOYD2 */
+#gif {
+    position: absolute;
+    top: 27%;
+    left: 50.5%;
+    height: 600px;
+}
+
+h6 {
+    position: absolute;
+    top: 23%;
+    left: 52%;
+    font-family: "terminator";
+    font-size: 75px;
+}
+
+#george-droyd {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    height: 600px;
+}
+/* END OF FLOYD2 */
+
+/* START OF FLOYD3 */
+#vertical {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    top: 25%;
+    left: 79%;
+    background-color: red;
+    color: yellow;
+    font-weight: bolder;
+    padding: 25px;
+    font-size: 150px;
+}
+
+#chinease-floyd {
+    position: absolute;
+    top: 16%;
+    left: 10%;
+}
+/* END OF FLOYD3 */
