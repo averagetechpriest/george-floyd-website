@@ -22,6 +22,11 @@ body {
     src: url("font/TERMINAT.TTF");
 }
 
+@font-face {
+    font-family: 'kremlin';
+    src: url("font/kremlin.ttf");
+}
+
 /* START OF INDEX */
 nav {
     display: flex;
@@ -143,6 +148,17 @@ h6 {
     left: 0%;
     height: 600px;
 }
+
+.capt {
+    position: absolute;
+    top: 45%;
+    left: 60%;
+}
+
+.capt * {
+    font-size: xx-large;
+    padding: 5px;
+}
 /* END OF FLOYD2 */
 
 /* START OF FLOYD3 */
@@ -165,3 +181,34 @@ h6 {
     left: 10%;
 }
 /* END OF FLOYD3 */
+
+/* START OF FLOYD4 */
+#ruski {
+    font-family: "kremlin";
+    color: red;
+    font-size: 50px;
+    position: absolute;
+    top: 26%;
+    left: 75%;
+    text-align: center;
+}
+
+#o227 {
+    position: absolute;
+    top: 50%;
+    left: 78%;
+    width: 300px;
+}
+
+#ruski-floyd {
+    position: absolute;
+    top: 16%;
+    left: 2.5%;
+    border: red inset 10px;
+}
+
+#ruski-floyd:hover {
+    cursor: pointer;
+    border: red outset 10px;
+}
+/* END OF FLOYD4 */
